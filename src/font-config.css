@@ -1,0 +1,16 @@
+@font-face {
+    font-family: clash-grotesk-semibold;
+    src: url(../fonts/clashgrotesk-semibold.woff);
+}
+@font-face {
+    font-family: clashgrotesk-extralight;
+    src: url(../fonts/clashgrotesk-medium.woff);
+}
+@font-face {
+    font-family: clash-grotesk-regular;
+    src: url(../fonts/clashgrotesk-regular.woff);
+}
+@font-face {
+    font-family: clash-grotesk-bold;
+    src: url(../fonts/clashgrotesk-bold.woff);
+}

@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: clash-grotesk-regular;
+}
+
+button {
+    border: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: hsla(0, 100%, 50%, 1);
+    background-image: url(../imgs/patternpad.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    height: 70%;
+    width: 50%;
+    background-color: black;
+    border-radius: 8px;
+    backdrop-filter: blur(18px) saturate(172%);
+    -webkit-backdrop-filter: blur(18px) saturate(172%);
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    border-radius: 10px;
+}
+
+.header {
+    height: 20%;
+}
+.score {
+    font-size: 1.25rem;
+}
+#colorBox {
+    height: 10%;
+    width: 50%;
+    background-color: aquamarine;
+    border-radius: 8px;
+    height: 15%;
+    font-family: clash-grotesk-bold;
+    font-size: 1rem;
+}
+
+.button {
+    height: 40%;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+    border: none;
+    font-family: clash-grotesk-bold;
+    font-size: 1rem;
+    cursor: auto;
+}
+
+.buttons-wrapper {
+    height: 30%;
+    width: 50%;
+}
+
+.flex-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.states {
+    height: 10%;
+    width: 80%;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.game-space {
+    height: 80%;
+    width: 90%;
+}
+
+.control-buttons {
+    height: 10%;
+    width: 60%;
+    margin-bottom: 5%;
+}
+
+.control-buttons>button {
+    height: 100%;
+    width: 100%;
+    color: black;
+    background-color: white;
+    font-family: clash-grotesk-bold;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 680px) {
+    body{
+        height: 100vh;
+    }
+    .card {
+        width: 80%;
+        height: 40%;
+    }
+
+    .buttons-wrapper {
+        width: 80%;
+    }
+}
